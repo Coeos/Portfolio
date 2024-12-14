@@ -1,10 +1,7 @@
 import React from 'react';
 
 import campwithusImg from '@/../public/images/camp-with-us.png';
-import carcatalogImg from '@/../public/images/car-catalog.png';
 import filedriveImg from '@/../public/images/file-drive.png';
-import projectmanagementImg from '@/../public/images/project-management.png';
-import reactfoodImg from '@/../public/images/react-food.png';
 import surgeImg from '@/../public/images/surge.png';
 import portfolioImg from '@/../public/images/portfolio.png';
 import auditMasterImg from '@/../public/images/audit-master.png';
@@ -43,136 +40,86 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'WhirrCrew',
-    location: 'Prague, Czechia',
-    description: `Front-end Web Develpoer position. Responsible for implementation of accessible and interactive interface. Working on various projects with AI integration. `,
-    icon: React.createElement(BriefcaseBusinessIcon),
-    date: 'Jun 2024 - Present',
-  },
-  {
-    title: 'NAU',
-    location: 'Kyiv, Ukraine',
-    description: `Bachelor's degree in Cybersecurity. Studying on the faculty of Cyber Security and Software Engineering.`,
+    title: 'MASTER - Creative Technologies',
+    location: 'ESILV - Paris, France',
+    description: `Creative Technologies Master's graduate with engineering expertise. Specializes in innovative problem-solving, blending design and technology. Experienced in projects involving mechanical design, audio systems and electronics.`,
     icon: React.createElement(BookIcon),
-    date: 'Sep 2022 - Present',
+    date: 'September 2022 - Present',
   },
   {
-    title: 'Self-studying',
-    location: 'Czechia',
-    description: `Digging into Programming, Software Engineering and Web Development, picking up a great expertise in TypeScript, React, Next.js, Node.js, and database technologies (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data access.`,
+    title: 'Mechanical Design Intern',
+    location: 'ID² - Marseille, France',
+    description: `3D design and drafting on SolidWorks, project follow-up, client communication`,
+    icon: React.createElement(BriefcaseBusinessIcon),
+    date: 'April 2024 - August 2024',
+  },
+  {
+    title: 'Preparatory Classes for Grandes Écoles',
+    location: 'Annonay - France',
+    description: 'Scientific Preparatory Class graduate with a strong foundation in mathematics, physics, and engineering sciences. Skilled in analytical thinking, problem-solving, and rigorous academic approaches.',
     icon: React.createElement(LaptopMinimalIcon),
-    date: 'Jul 2022 - Present',
+    date: 'September 2020 - July 2022',
   },
 ] as const;
 
 export const images = {
   campwithusImg,
-  carcatalogImg,
   filedriveImg,
-  projectmanagementImg,
-  reactfoodImg,
 };
 
 export const projectsData = [
   {
-    title: 'FileDrive',
+    title: 'CLARUS',
     description:
-      'A platform for decentralized file storage with robust user management.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Convex',
-      'Clerk',
-      'Shadcn',
-      'Tailwind',
-    ],
+      'A programmable audio amplifier with per-channel equalizers, interconnectivity, and USB-C external battery support, designed for versatile speaker setups and DIY audio systems',
+    tags: [],
     imageUrl: filedriveImg,
-    link: 'https://github.com/bbyc4kes/file-drive',
+    link: 'https://coeos.github.io/ThreeJS-Clarus/',
   },
   {
     title: 'Portfolio',
     description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me.`,
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Framer Motion',
-      'Cloudinary',
-      'React Email',
-      'Tailwind',
-    ],
+    tags: [],
     imageUrl: portfolioImg,
-    link: 'https://github.com/bbyc4kes/portfolio',
+    link: '',
   },
   {
-    title: 'Audit Master',
-    description: `Audit Master is a platform that streamlines the process of obtaining legal expertise and resources. It automates tasks like GAP Analysis, GAP Reporting, and Due Diligence.`,
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'Tailwind',
-      'OpenAI',
-      'SCRUM Methodology',
-      'End-to-End Development',
-    ],
+    title: 'KOLOBURO',
+    description: `A minimalist leather cable management device launched on Kickstarter, combining practicality and elegance to keep your cables organized and tangle-free, made for design-conscious tech users.`,
+    tags: [],
     imageUrl: auditMasterImg,
-    link: 'https://auditmaster.ai/',
+    link: 'https://www.kickstarter.com/projects/koloburo/quickstarter-koloburo-leather-cable-management-device?ref=user_menu',
   },
   {
-    title: 'Surge',
+    title: 'Water Decanteur',
     description:
-      'Welcome Surge! A SaaS Website Builder - service that allows users to build and manage their own websites with integrated payment processing.',
-    tags: [
-      'React',
-      'TypeScript',
-      'Next.js',
-      'MySQL',
-      'Clerk',
-      'Stripe Connect',
-      'Shadcn',
-      'Tailwind',
-    ],
+      'A 3D-modeled water decanter designed for rapid filtration of large volumes, aimed at providing clean water to flood a nuclear reactor in critical scenarios.',
+    tags: [],
     imageUrl: surgeImg,
-    link: 'https://github.com/bbyc4kes/surge',
+    link: '',
   },
   {
-    title: 'CampWithUs',
+    title: 'Sink Support',
     description:
-      'A platform to find and book campsites, featuring a well-designed backend and seamless client-server communication.',
-    tags: ['JavaScript', 'Express.js', 'MongoDB', 'Cloudinary', 'EJS'],
+      'A seismic-resistant sink support, designed to withstand earthquakes and other stresses, tailored for bunkers in nuclear power plants.',
+    tags: [],
     imageUrl: campwithusImg,
-    link: 'https://github.com/bbyc4kes/campwithus',
+    link: '',
   },
 ] as const;
 
 export const skillsData = [
+  ['SolidWorks', '/svgs/Soliworks.svg'],
+  ['Arduino', '/svgs/arduino-1.svg'],
+  ['Matlab', '/svgs/matlab.svg'],
+  ['C#', '/svgs/C--4.svg'],
   ['JavaScript', '/svgs/javascript-js.svg'],
-  ['TypeScript', '/svgs/typescript-icon.svg'],
   ['React', '/svgs/react.svg'],
   ['Next.js', '/svgs/nextjs.svg'],
   ['Node.js', '/svgs/node-js.svg'],
-  ['Express', '/svgs/express-original.svg'],
-  ['Tailwind', '/svgs/tailwind-css.svg'],
-  ['Framer', '/svgs/framer.svg'],
-  ['Shadcn', '/svgs/shadcnui.svg'],
-  ['Headless', '/svgs/brand-headlessui.svg'],
-  ['Redux', '/svgs/redux-original.svg'],
-  ['Prisma', '/svgs/file-type-light-prisma.svg'],
-  ['MongoDB', '/svgs/mongodb-original.svg'],
-  ['PostgreSQL', '/svgs/postgresql.svg'],
   ['MySQL', '/svgs/MySQL.svg'],
-  ['Tanstack Query', '/svgs/react-query-seeklogo.svg'],
-  ['Tanstack Table', '/svgs/db-table-svgrepo-com.svg'],
-  ['Cloudinary', '/svgs/cloudinary.svg'],
-  ['Docker', '/svgs/Docker.svg'],
-  ['Clerk', '/svgs/clerk.svg'],
-  ['Axios', '/svgs/axios.svg'],
   ['HTML', '/svgs/file-type-html.svg'],
   ['CSS', '/svgs/file-type-css.svg'],
-  ['Sass', '/svgs/Sass.svg'],
-  ['Git', '/svgs/git.svg'],
   ['GitHub', '/svgs/github.svg'],
   ['', '/svgs/etc.svg'],
 ] as const;

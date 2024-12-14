@@ -44,18 +44,17 @@ export default function About() {
             <div className="text-md relative z-40 flex flex-col gap-3 font-semibold tracking-wide text-primary lg:absolute lg:right-0 lg:top-[27%] lg:block lg:max-w-[580px] lg:text-start lg:text-lg xl:top-1/3 xl:h-[442px] xl:max-w-[650px]">
               <div className="flex h-full flex-col justify-center gap-6">
                 <span>
-                  I&apos;m Full-stack developer with expertise in TypeScript,
-                  React, Next.js, Node.js, and database technologies
-                  (MongoDB/PostgreSQL/MySQL) utilizing Prisma for efficient data
-                  access. Proven ability to deliver user-centered web
-                  applications with a focus on intuitive experiences and user
-                  interaction.
+                  I&apos;m a versatile engineering student with a major in Creative Technologies,
+                  blending theoretical knowledge and practical expertise. 
+                  Proficient in programming languages such as Python, 
+                  JavaScript, and C#, with a lot of experience in SolidWorks, 
+                  PCB design, and Arduino/ESP32 applications. 
+                  I excel in problem-solving and developing innovative solutions across hardware and software domains.
                 </span>
                 <span>
-                  Seeking for Web Development opportunities where I can leverage
-                  my skills to create meaningful connections between products
-                  and users.
-                </span>
+                Seeking opportunities in Product Development or Mechanical Design to merge 
+                creativity with technology and create impactful user experiences and functional designs.
+                </span>       
                 <p className="flex flex-col items-start sm:items-center lg:items-start">
                   <span>So if you are interested,</span>
                   <Link
