@@ -81,7 +81,7 @@ export const projectsData = [
     description: `Portfolio that you're currently viewing! This project showcases my work and provides information about me.`,
     tags: [],
     imageUrl: portfolioImg,
-    link: '',
+    link: 'https://github.com/Coeos/portfolio',
   },
   {
     title: 'KOLOBURO',
