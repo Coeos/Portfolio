@@ -7,4 +7,4 @@ updates:
       interval: "monthly"  # Checks for updates
     commit-message:
       prefix: "deps"  # Optional: customize commit message prefix
-    open-pull-requests-limit: 5  # Optional: limit the number of open PRs
+    open-pull-requests-limit: 0  # Optional: limit the number of open PRs
